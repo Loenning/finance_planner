@@ -1,0 +1,17 @@
+.container {
+  background-color: #444;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 24px;
+  width: 300px;
+}
+
+.listItem {
+  list-style: none; /* Fjerner prikkene */
+  padding: 8px;
+  border-bottom: 1px solid #555;
+}
+
+.listItem:last-child {
+  border-bottom: none; /* Fjerner linjen på det siste elementet */
+}
