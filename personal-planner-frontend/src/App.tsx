@@ -20,6 +20,8 @@ function App() {
       <main className="main-content">
         {/* Bruk komponenten vår og send inn de hardkodede dataene som "props" */}
         <CategoryList categories={mockCategories} />
+
+        
       </main>
 
       <footer className="App-footer">

@@ -17,25 +17,33 @@
   display: flex;
   justify-content: flex-start;
   padding: 20px;
-  width: 90%;
+  width: 100%;
   height: 1200px;
-  max-width: 1200px;
   margin: 0 auto;
-  background-color: #282c34;
-  color: white;
+  background-color: #ddddc5e7;
+  color: rgb(107, 112, 126);
+  font-size: calc(10px + 2vmin)
 }
 
+
 .App-header {
-  background-color: #282c34;
+  background-color: #43464d;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-left: 400px;
 }
 
+
+
 .App-footer {
+  background-color: #43464d;
+  display: flex;
+  flex-direction: column;
+  color: white;
 }
 
 .App-link {

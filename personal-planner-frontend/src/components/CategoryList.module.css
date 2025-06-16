@@ -10,6 +10,7 @@
   list-style: none; /* Fjerner prikkene */
   padding: 8px;
   border-bottom: 1px solid #555;
+  font-size: calc(10px + 2vmin)
 }
 
 .listItem:last-child {
